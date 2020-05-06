@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tanayseven/doubles-with-pytest.svg?branch=master)](https://travis-ci.org/tanayseven/doubles-with-pytest)
+
 Doubles with PyTest
 ===================
 
