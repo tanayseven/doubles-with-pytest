@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "doubles-with-pytest"
+version = "0.1.0"
+description = "Different types of test doubles demonstrated in Pytest"
+authors = ["Tanay PrabhuDesai <tanayseven@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+boto3 = "^1.13.3"
+flask = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.1"
+moto = "^1.3.14"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
